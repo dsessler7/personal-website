@@ -1,10 +1,5 @@
 import React from "react";
 import { FooterProps } from '../interfaces';
-// import ReactDOM from "react-dom";
-
-// interface HeaderProps {
-//   name: string,
-// }
 
 const Footer = (props: FooterProps): JSX.Element => {
   return (

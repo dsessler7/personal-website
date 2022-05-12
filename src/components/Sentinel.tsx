@@ -16,8 +16,8 @@ const Sentinel = (props: SentinelProps): JSX.Element => {
         <img src="assets/images/intro_demo.gif" />
       </div>
       <ul className="flex flex-col sm:flex-row gap-10 justify-center my-7">
-        <li><a href={props.caseStudy} className="bg-independence text-background-white sm:text-2xl py-4 px-5 rounded-lg hover:border hover:bg-background-white hover:text-independence">Read Sentinel Case Study</a></li>
-        <li><a href={props.presentation} className="bg-independence text-background-white sm:text-2xl py-4 px-5 rounded-lg hover:border hover:bg-background-white hover:text-independence">Watch Presentation</a></li>
+        <li><a href={props.caseStudy} target="_blank" rel="noreferrer" className="bg-independence text-background-white sm:text-2xl py-4 px-5 rounded-lg hover:border hover:bg-background-white hover:text-independence">Read Sentinel Case Study</a></li>
+        <li><a href={props.presentation} target="_blank" rel="noreferrer" className="bg-independence text-background-white sm:text-2xl py-4 px-5 rounded-lg hover:border hover:bg-background-white hover:text-independence">Watch Presentation</a></li>
       </ul>
     </div>
   )

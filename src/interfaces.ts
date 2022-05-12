@@ -9,6 +9,7 @@ export interface HeaderProps {
 export interface IntroProps {
   photo: string,
   bio: string[],
+  resume: string,
   caseStudy: string
 }
 

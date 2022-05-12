@@ -14,7 +14,7 @@ function App() {
   const headerInfo = {
     name: "Drew Sessler",
     email: "drew@drewsessler.com",
-    resume: "",
+    resume: "assets/Drew_Sessler_Resume.pdf",
     linkedIn: "https://www.linkedin.com/in/drew-sessler-3816601b/",
     github: "https://github.com/dsessler7",
   }
@@ -22,6 +22,7 @@ function App() {
   const introInfo = {
     photo: "assets/images/drew_headshot.png",
     bio,
+    resume: "assets/Drew_Sessler_Resume.pdf",
     caseStudy: "https://sentinel-paas.github.io/",
   }
 
